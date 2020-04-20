@@ -41,8 +41,20 @@
 }
 
 #FourTiles>div{
-	padding: 100px;
+	padding: 10%;
+	min-width: 50%
 }
+
+/*#FourTiles div.col-6{
+	padding: 5px;	
+}*/
+
+#FourTiles div.col-6>img{
+	min-width:150px;
+	height: auto;
+}
+
+
 #WeeklyPlanner{
 	
 	background:#48CFAD;
