@@ -7,26 +7,37 @@
 
   <!-- Bootstrap CSS -->
   <link rel="stylesheet" href="css/bootstrap.min.css">
-  <link rel="stylesheet" href="css/style.css">
-  
+   <link rel="stylesheet" href="css/style.css">
+ 
 
   <title>Hello, world!</title>
 </head>
 <body id="body">
   <header>
     <!-- Navigation -->
-    <nav class="navbar navbar-dark bg-primary fixed-top">
+<nav class="navbar navbar-dark bg-primary fixed-top">
       <div class="container-fluid">
 
         <a class="navbar-brand" href="index.html">Food Cart</a>
+        <button class="navbar-toggler custom-toggler" type="button" data-toggle="collapse" data-target="#ThreeLineMenu" aria-controls="ThreeLineMenu" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
 
-        <div class="dropdown">
-          <button class="dropbtn">Dropdown</button>
-          <div class="dropdown-content">
-            <a href="#">Link 1</a>
-            <a href="#">Link 2</a>
-            <a href="#">Link 3</a>
-          </div>
+        <div id="ThreeLineMenu" class="collapse navbar-collapse">
+          <ul class="nav navbar-nav">
+            <li >
+              <a class="nav-link" href="#Chicken">Chicken </a>
+              <hr>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#Beef">Beef</a>
+              <hr>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#Sushi">Sushi</a>
+              <hr>
+            </li>
+          </ul>
         </div>
         
       </div>
@@ -35,48 +46,33 @@
 
   <div class="container">
     <div id="FourTiles" class="row">
-      <div id="WeeklyPlanner" class="col-6"</div>
-        <a href="index.html">
-          <h2>Weekly Planner</h2>
-          <img  class="img-fluid" src="assets/calendar.svg">
-        </a>
+      <div id="WeeklyPlanner" class="col-6">
+        <h2>Weekly Planner</h2>
+        <img  class="img-fluid" src="assets/calendar.svg">
       </div>
 
-      <div id="Cart" class="col-6"</div>
-        <a href="index.html">
-          <h2>My Cart</h2>
-          <img class="img-fluid" src="assets/cart.svg">
-        </a>
+      <div id="Cart" class="col-6">
+        <h2>My Cart</h2>
+        <img class="img-fluid" src="assets/cart.svg">
       </div>
 
-      <div id="History" class="col-6"</div>
-        <a href="index.html">
-          <h2>History</h2>
-          <img class="img-fluid" src="assets/clock.svg">
-        </a>
-      </div>
-
-
-      <div id="AdviseOfTheDay" class="col-6"</div>
-        <a href="index.html">
-          <h2>Daily Advice</h2>
-          <img class="img-fluid" src="assets/write.svg">
-        </a>
+      <div id="History" class="col-6">
+        <h2>History</h2>
+        <img class="img-fluid" src="assets/clock.svg">
       </div>
 
       <div id="AdviseOfTheDay" class="col-6">
-        <h2>Advice of the Day</h2>
+        <h2>Daily Advice</h2>
        <img class="img-fluid" src="assets/write.svg">
      </div>
 
+   </div>
+ </div>
 
-    </div>
-  </div>
-
-  <!-- Optional JavaScript -->
-  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-  <script src="js/jquery-3.4.1.slim.min.js"></script>
-  <script src="js/popper.min.js"></script>
-  <script src="js/bootstrap.min.js"></script>
+ <!-- Optional JavaScript -->
+ <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+ <script src="js/jquery-3.4.1.slim.min.js"></script>
+ <script src="js/popper.min.js"></script>
+ <script src="js/bootstrap.min.js"></script>
 </body>
 </html>
